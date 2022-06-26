@@ -13,7 +13,7 @@ public class Query01 {
         //3) Statement: SQL kodlarimizi yazmak icin br nesne olustur
         Statement st = con.createStatement();
 
-        //4) ResultSet:
+        //4) ResultSet: verileri saklamaya yarar
         ResultSet veri = st.executeQuery("select * from ogrenciler");
 
         //5) sonuclari al
