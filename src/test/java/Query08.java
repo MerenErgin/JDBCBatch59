@@ -10,11 +10,11 @@ public class Query08 {
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/batch59?serverTimezone=UTC","root","BURAYA SİFRE");
 
         Statement st = con.createStatement();
-/*
+
         // SORU1: Urunler adında bir tablo olusturalım (id int, isim varchar(10), fiyat int)
 
         st.execute("create table urunler (id int, isim varchar(10), fiyat int)");
-*/
+
         // SORU2: urunler tablosuna aşağıdaki verileri toplu bir şekilde etkileyin
         // Çok miktarda kayıt eklemek için PreparedStatement metodu kullanılır.
         // 1) Veri girişine uygun bir POJO (Plain Old Java Object) class oluşturulur

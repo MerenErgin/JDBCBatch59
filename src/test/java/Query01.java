@@ -9,6 +9,7 @@ public class Query01 {
         //2) Baglanti olustur
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimezone=UTC","root","BURAYA SİFRE");
         // okul: baglanti yapilan database'in ismi
+        //serverTimezone=UTC: hata varsa yazilir yoksa gerek yok
 
         //3) Statement: SQL kodlarimizi yazmak icin br nesne olustur
         Statement st = con.createStatement();
