@@ -7,7 +7,7 @@ public class Query01 {
         Class.forName("com.mysql.jdbc.Driver");
 
         //2) Baglanti olustur
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimezone=UTC","root","1234");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimezone=UTC","root","BURAYA SİFRE");
         // okul: baglanti yapilan database'in ismi
 
         //3) Statement: SQL kodlarimizi yazmak icin br nesne olustur

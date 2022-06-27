@@ -5,7 +5,7 @@ public class Query04 {
 
         Class.forName("com.mysql.jdbc.Driver");
 
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimezone=UTC","root","1234");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/okul?serverTimezone=UTC","root","BURAYA SİFRE");
 
         //Statement st = con.createStatement();
         PreparedStatement ps= con.prepareStatement("select * from ogrenciler");
